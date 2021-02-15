@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <main class="main">
+        <div class="calculator-grid">
+            <div class="output">
+                <div data-previous-operand class="previous-operand"></div>
+                <div data-current-operand class="current-operand"></div>
+            </div>
+            <button data-all-clear>AC</button>
+            <button data-square>√</button>
+            <button data-operation>^</button>
+            <button data-operation>÷</button>
+            <button data-number>1</button>
+            <button data-number>2</button>
+            <button data-number>3</button>
+            <button data-operation>*</button>
+            <button data-number>4</button>
+            <button data-number>5</button>
+            <button data-number>6</button>
+            <button data-operation>+</button>
+            <button data-number>7</button>
+            <button data-number>8</button>
+            <button data-number>9</button>
+            <button data-operation>-</button>
+            <button data-number>.</button>
+            <button data-number>0</button>
+            <button data-negative>-/+</button>
+            <button data-equals>=</button>
+        </div>
+        <div class="instruction">
+            <h2>Небольшая инструкция</h2>
+            <hr>
+            ★ Смена знака производится посредством нажатия на кнопку <strong>" -/+ "</strong>. <br> Введите число, затем нажмите кнопку " -/+ " - число станет отрицательным. При повторном нажатии число станет положительным.
+            <hr>
+            ★ Извлечение квадратного корня из числа производится посредством кнопки <strong>" √ "</strong>. <br> Введите число из которого хотите извлечь квадратный корень, затем нажмите кнопку " √ " - на экране появится результат вычисления. При попытке извлечь корень из отрицательного числа появится сообщение об ошибке.
+            <hr>
+            ★ Возведение в степень производится посредством кнопки <strong>" ^ "</strong>. <br> Введите число которое хотите возвести в степень, затем нажмите кнопку " ^ " и введите саму степень. После нажатия " = " на экране появится результат вычисления.
+            <hr>
+            Этот калькулятор не сможет вычислить число Грэма, но он вполне неплох! 
+        </div>
+    </main>
+    
+</body>
+
+</html>
